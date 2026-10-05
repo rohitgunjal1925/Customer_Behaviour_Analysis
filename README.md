@@ -1,92 +1,98 @@
-# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
-
-This project is perfect for:
-- 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
-- 📚 Anyone learning Python, SQL, and Power BI
-- 💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
-
-# **🎥 Watch this [YouTube video](https://www.youtube.com/watch?v=5PrZvPeUw60&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=3) to implement the full project from scratch:**  
-[![Advanced Data Analysis Portfolio Project using Retail Customer Data](https://github.com/user-attachments/assets/abbb6371-a0b2-4bec-a304-7c7da98658b6)](https://www.youtube.com/watch?v=x8dfQkKTyP0&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=2)
-🔗 *Link to Video:* [Watch on Youtube](https://www.youtube.com/watch?v=5PrZvPeUw60&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=3)
-
+# 📊 Customer Behavior Analysis
 
 ## 📌 Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+This project is an end-to-end **Customer Behavior Analysis** project designed to analyze customer data and generate meaningful business insights.
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+The project covers the complete data analytics workflow, including **data cleaning, exploratory analysis, SQL analysis, and interactive Power BI dashboard development**.
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+The main objective is to understand customer behavior, identify important trends and patterns, and present insights that can support data-driven business decisions.
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+## 🔄 Project Workflow
 
-![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
+**Raw Data → Data Cleaning → SQL Analysis → Insights → Power BI Dashboard**
 
-## 🛠️ How to Use This Project
+### 1. Data Cleaning
+- Cleaned and prepared the raw customer dataset.
+- Handled missing and inconsistent data.
+- Checked for duplicate records.
+- Standardized data for further analysis.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
-   ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+### 2. SQL Analysis
 
-    This file contains:
+SQL queries were used to answer business-related questions and extract meaningful insights from the dataset.
 
-      - Data Import
+The analysis includes:
+- Customer behavior analysis
+- Customer segmentation
+- Purchase patterns
+- Sales and revenue analysis
+- Product/category analysis
+- Customer preferences
+- Key business metrics
 
-      - Data exploration
+### 3. Power BI Dashboard
 
-      - Data cleaning
+An interactive Power BI dashboard was created to visualize the results of the analysis.
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+The dashboard includes:
+- 📌 Key Performance Indicators (KPIs)
+- 📈 Sales and customer trends
+- 👥 Customer analysis
+- 🛍️ Product/category insights
+- 🎛️ Interactive filters and slicers
+- 📊 Charts and visualizations
 
-      - Create a database in SQL
+## 🛠️ Tools & Technologies
 
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
+- **SQL** – Data analysis and business queries
+- **Power BI** – Data visualization and dashboard development
+- **Python** – Data cleaning and analysis
+- **Pandas & NumPy** – Data manipulation and preprocessing
+- **Excel/CSV** – Data source and data preparation
 
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
+## 📂 Project Files
 
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
-7. **Follow along with the YouTube video for full walkthrough. 👨‍💼**
+```text
+Customer-Behavior-Analysis/
+│
+├── Data/
+│   └── customer_data.csv
+│
+├── SQL/
+│   └── customer_behavior_queries.sql
+│
+├── Python/
+│   └── customer_behavior_analysis.ipynb
+│
+├── PowerBI/
+│   └── customer_behavior_dashboard.pbix
+│
+└── README.md
+```
 
+## 🎯 Key Learning Outcomes
 
-## 📜 License
+Through this project, I gained practical experience in:
 
-MIT — feel free to fork, star, and use in your portfolio.
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- Writing SQL queries
+- Extracting meaningful business insights
+- Creating KPIs and analytical metrics
+- Building interactive Power BI dashboards
+- Communicating data-driven insights
 
-## 👨‍💻 About the Author
-Hey, I’m Amlan Mohanty, a Data Analyst & Content Creator.
-I break down complex data topics into simple, practical content that actually helps you land a job.
+## 📊 Final Outcome
 
- ### 🚀 Stay Connected & Join my Data Community
-If you enjoyed this project and want to keep learning and growing as a data analyst, let’s stay in touch! I regularly share content around SQL, data analytics, portfolio projects, job tips, and more.
+The final Power BI dashboard provides an interactive view of customer behavior and business performance, helping identify important trends, patterns, and insights from the data.
 
-🎥 YouTube: [Amlan Mohanty](https://www.youtube.com/@amlanmohanty1)
-- Beginner-friendly tutorials, real-world projects, job and career advice
+This project demonstrates practical skills in **Data Analytics, Python, SQL, and Power BI**.
 
-📺 Instagram: [datacareerschool](https://www.instagram.com/datacareerschool/)
-- Quick SQL tips, data memes, and behind-the-scenes content
+## 👨‍💻 About
 
-💼 LinkedIn: [Amlan Mohanty](https://www.linkedin.com/in/amlanmohanty1/)
-- Let’s connect professionally and grow your data career
+This project was created as part of my **Data Analytics portfolio** to demonstrate my ability to work with real-world data and follow an end-to-end analytics workflow.
 
+## ⭐ Support
 
-## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
+If you find this project useful, feel free to **star ⭐ the repository**.
